@@ -6,7 +6,7 @@ const route = express.Router();
 route.post("/", create)
 route.get("/", getAllUsers)
 route.get("/:id", getUserById)
-route.put("/update/:id", update)
+route.put("/:id", update)
 route.delete("/:id", deleteUser)
 
 export default route;
